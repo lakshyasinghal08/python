@@ -1,0 +1,67 @@
+# def greet():
+#     print("hello")
+    
+# greet()
+
+# def greett(name):
+#     print("hello " , name)
+    
+# greett("lakshya")
+
+# function with the return type
+# def add(a,b):
+#     return a + b
+
+
+# result = add(12 ,11)
+# print(result)
+
+# def show(a,b):
+#     print(a+b)
+    
+# show(12,11)
+
+# def greet(name = "user"):
+#     print("hello",name)
+    
+# greet()
+# greet("lakshya")
+
+# def average(nums):
+#    return sum(nums)/len(nums)
+
+# marks = [10,20,30,40,50]
+# print(average(marks))
+
+
+# def test():
+#     x = 5
+#     print(x)
+    
+# x = 4
+# def test():
+#     print(x)
+    
+# test()
+
+def multiply(x,y):
+    return x*y
+
+print(multiply(12,2))
+
+def summ(num):
+    return sum(num)
+
+mar = (10,20,30)
+print(summ(mar))
+
+def check():
+    a = int(input("enter the value for a  : "))
+    if(a % 2 == 0 ):
+        print("a is even")
+        
+    else:
+        print("a is odd :")
+        
+check()
+
